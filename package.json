@@ -1,0 +1,22 @@
+{
+  "name": "dbs",
+  "version": "0.1.0",
+  "description": "List common databases that are running",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:charliedowler/dbs.git"
+  },
+  "keywords": [
+    "database"
+  ],
+  "dependencies": {
+    "q": "~1.0.1",
+    "is-mongo": "~0.3.0"
+  },
+  "author": "charliedowler",
+  "license": "MIT"
+}
