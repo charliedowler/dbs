@@ -1,13 +1,16 @@
 #!/usr/bin/env node
 
-require('../index')().then(function(databases) {
+require('../index')().then(function (databases) {
   var dbs = [];
-  databases.forEach(function(db, i) {
+  databases.forEach(function (db, i) {
     if (db.running) {
       dbs.push(db.type);
     }
   });
-  console.log(dbs.join(', ') + ((dbs.length >=2) ? ' are running' :  ' is running'));
-}, function() {
-  console.log('No databases running');
+  if (dbs.length > 0) {
+    console.log(dbs.join(', ') + ((dbs.length >= 2) ? ' are running' : ' is running'));
+  }
+  else {
+    console.log('No databases running');
+  }
 });
