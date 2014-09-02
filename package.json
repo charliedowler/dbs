@@ -4,7 +4,7 @@
   "description": "List common databases that are running",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/test.js"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,10 @@
     "is-couch": "~0.2.0",
     "is-redis": "~0.1.0",
     "is-postgres": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-simple-mocha": "^0.4.0"
   },
   "author": "charliedowler",
   "license": "MIT"
