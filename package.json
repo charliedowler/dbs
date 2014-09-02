@@ -16,7 +16,7 @@
   "dependencies": {
     "q": "~1.0.1",
     "is-mongo": "~0.3.0",
-    "is-mysql": "~0.1.0",
+    "is-mysql": "~0.3.0",
     "is-couch": "~0.2.0",
     "is-redis": "~0.1.0",
     "is-postgres": "~0.1.0"
