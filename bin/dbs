@@ -13,4 +13,5 @@ require('../index')().then(function (databases) {
   else {
     console.log('No databases running');
   }
+  process.exit(0);
 });
