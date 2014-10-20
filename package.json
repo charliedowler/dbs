@@ -19,7 +19,7 @@
     "is-mysql": "~0.3.0",
     "is-couch": "~0.3.0",
     "is-redis": "~0.1.0",
-    "is-postgres": "~0.1.0"
+    "is-postgres": "~0.2.0"
   },
   "devDependencies": {
     "grunt": "^0.4.2",
