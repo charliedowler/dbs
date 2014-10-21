@@ -32,7 +32,7 @@ dbs().then(function(databases) {
 ## CLI
 
 ```sh
-$ npm install -g dbs
+$ npm install --global dbs
 ```
 
 ```sh
@@ -43,7 +43,7 @@ $ dbs
 
 ## License
 
-MIT © [Charlie Dowler](http://charliedowler.com)
+MIT © Charlie Dowler
 
 [npm-url]: https://npmjs.org/package/dbs
 [npm-image]: https://badge.fury.io/js/dbs.png
