@@ -14,7 +14,7 @@
     "database"
   ],
   "dependencies": {
-    "q": "~1.0.1",
+    "q": "~1.1.2",
     "is-mongo": "~0.4.0",
     "is-mysql": "~0.3.0",
     "is-couch": "~0.3.0",
